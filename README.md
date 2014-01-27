@@ -5,6 +5,7 @@ Skeleton App using Zend Framework for Windows Platform
 
 
 Description:
+
 1. manifest.xml, parameters.xml : These files are required to build a web deployable package for Windows Web platform Installer,
 Azure websites installer and Windows Azure pack websites installer
 2. Zend2 Directory : The source code here is  built using the original Zend framework's skeleton application: https://github.com/zendframework/ZendSkeletonApplication and using composer(https://getcomposer.org/) to include Zend framework
@@ -12,6 +13,7 @@ Azure websites installer and Windows Azure pack websites installer
 
 
 How is this different from orginal Zend Skeleton App :
+
 These files are not part of the original Zend skeleton application:
    - manifest.xml
    - parameters.xml
@@ -23,6 +25,7 @@ These files are not part of the original Zend skeleton application:
     
 
 Installation on IIS :
+
 Download the Zip file and use Web deploy to deploy the application to local IIS 
 http://www.iis.net/learn/publish/using-web-deploy/import-a-package-through-iis-manager 
 
