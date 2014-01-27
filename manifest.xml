@@ -1,0 +1,7 @@
+
+<MSDeploy.iisApp>
+
+	<iisApp path="Zend2"/>	
+    <alias from="web.config" to="Zend2/web.config" />		
+   
+</MSDeploy.iisApp>

@@ -1,0 +1,15 @@
+<parameters>
+
+<parameter
+	name="AppPath"
+	defaultValue="Default Web Site/"
+	tags="iisapp"
+	>
+	
+<parameterEntry
+	type="ProviderPath"
+	scope="iisapp"
+	match="Zend2"
+	/>
+</parameter>
+</parameters>
