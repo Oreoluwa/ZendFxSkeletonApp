@@ -31,13 +31,13 @@ http://www.iis.net/learn/publish/using-web-deploy/import-a-package-through-iis-m
 
 
 Installation on Azure Websites:
-1. Create a new Website on Windows Azure through the management portal (http://manange.windowsazure.com)
-2. Once the site is created, click on the site to access its Dashboard. Now download the Publish Profile
-Open the file in any text editor. Here is a sample :
+
+- Create a new Website on Windows Azure through the management portal (http://manange.windowsazure.com)
+- Once the site is created, click on the site to access its Dashboard. Now download the Publish Profile. Here is a sample :
 
 <publishProfile profileName="myazuresite - Web Deploy" publishMethod="MSDeploy" publishUrl="waws-prod-001.publish.azurewebsites.windows.net:443" msdeploySite="myazuresite" userName="$myazuresite" userPWD="7nbQc4ngW" destinationAppUrl="http://myazuresite.azurewebsites.net" SQLServerDBConnectionString="" mySQLDBConnectionString="Database=SiteA3nnQoL6k0;Data Source=us-cdbr-azure-west-b.cleardb.com;User Id=b00ea5f73c603a;Password=somePassword" hostingProviderForumLink="" controlPanelLink="http://windows.azure.com">
 
-3. Create a setparameters.xml file 
+- Create a setparameters.xml file 
 Build a SetParameters File for deploying your application
 You can name this file as you would name a filename, but for the sake of this article let’s say the file is called SetParameters.xml .
 
