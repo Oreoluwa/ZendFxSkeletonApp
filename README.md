@@ -26,7 +26,7 @@ These files are not part of the original Zend skeleton application:
 
 #Installation on IIS :
 
-Download the Zip file and use Web deploy to deploy the application to local IIS 
+Download the Zip file from https://github.com/AppHubBuild/ZendFx-WWAG-Package  and use Web deploy to deploy the application to local IIS 
 http://www.iis.net/learn/publish/using-web-deploy/import-a-package-through-iis-manager 
 
 
