@@ -23,15 +23,17 @@ These files are not part of the original Zend skeleton application:
    - Zend2/vendor/bin
    - Zend2/vendor/composer
     
-
+#Web deploy package for Zend Framework skeleton app:
+Use this pre-built package : https://github.com/AppHubBuild/ZendFx-WWAG-Package
 #Installation on IIS :
 
-Download the Zip file from https://github.com/AppHubBuild/ZendFx-WWAG-Package  and use Web deploy to deploy the application to local IIS 
+Download the web deploy package and use Web deploy to deploy the application to local IIS 
 http://www.iis.net/learn/publish/using-web-deploy/import-a-package-through-iis-manager 
 
 
 #Installation on Azure Websites:
 
+- Download the web deploy package
 - Create a new Website on Windows Azure through the management portal (http://manange.windowsazure.com)
 - Once the site is created, click on the site to access its Dashboard. Now download the Publish Profile. Here is a sample :
 
